@@ -9,7 +9,7 @@ class FiniteStateMachine
 public:
 	enum class State
 	{
-		Start = 1,
+		Start,
 		Running,
 		Pause,
 		End
